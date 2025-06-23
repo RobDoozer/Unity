@@ -1,0 +1,22 @@
+transforms:
+  - translation: [0, 0, 0.75]
+    rotation: [0, 0, 0]
+    parent: base_link2
+    child: laser2
+  - translation: [-0.5, 0, -0.05]
+    rotation: [0.0, 1.0, 0.0, 0.0]
+    parent: base_link2
+    child: kinect1_link
+  - translation: [0, 0, 0]
+    rotation: [-0.5, -0.5, 0.5, 0.5]
+    parent: kinect1_link
+    child: kinect1_rgb_optical_frame
+  - translation: [0, 0, 0]
+    rotation: [-0.5, -0.5, 0.5, 0.5]
+    parent: kinect1_link
+    child: kinect1_color_optical_frame
+  - translation: [0, 0, 0]
+    rotation: [0, 0, 0]
+    parent: odom2
+    child: base_link2
+

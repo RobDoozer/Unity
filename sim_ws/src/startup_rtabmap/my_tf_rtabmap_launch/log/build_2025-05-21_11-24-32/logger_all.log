@@ -1,0 +1,93 @@
+[0.047s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'my_tf_rtabmap_launch']
+[0.047s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=<colcon_core.argument_default.BooleanDefaultValue object at 0x710e499a8190>, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['my_tf_rtabmap_launch'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x710e49938190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x710e49a71ba0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x710e49a71ba0>>)
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.108s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'my_tf_rtabmap_launch'
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.130s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install
+[0.130s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rechner1/rplidar_ws/install
+[0.130s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rechner1/mapping_ws/install
+[0.131s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'my_tf_rtabmap_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.148s] DEBUG:colcon.colcon_core.verb:Building package 'my_tf_rtabmap_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/build/my_tf_rtabmap_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install', 'merge_install': <colcon_core.argument_default.BooleanDefaultValue object at 0x710e499a8190>, 'path': '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch', 'symlink_install': False, 'test_result_base': None}
+[0.148s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.148s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch' with build type 'ament_python'
+[0.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tf_rtabmap_launch', 'ament_prefix_path')
+[0.149s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/hook/ament_prefix_path.ps1'
+[0.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/hook/ament_prefix_path.dsv'
+[0.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/hook/ament_prefix_path.sh'
+[0.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'my_tf_rtabmap_launch' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.239s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch'
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch': PYTHONPATH=/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/build/my_tf_rtabmap_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_tf_rtabmap_launch build --build-base /home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/build/my_tf_rtabmap_launch/build install --record /home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/build/my_tf_rtabmap_launch/install.log --single-version-externally-managed install_data
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch' returned '0': PYTHONPATH=/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/build/my_tf_rtabmap_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_tf_rtabmap_launch build --build-base /home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/build/my_tf_rtabmap_launch/build install --record /home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/build/my_tf_rtabmap_launch/install.log --single-version-externally-managed install_data
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install' for CMake module files
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install' for CMake config files
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/lib'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/bin'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/lib/pkgconfig/my_tf_rtabmap_launch.pc'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/lib/python3.10/site-packages'
+[0.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tf_rtabmap_launch', 'pythonpath')
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/hook/pythonpath.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/hook/pythonpath.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/hook/pythonpath.sh'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/bin'
+[0.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_tf_rtabmap_launch)
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/package.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/package.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/package.sh'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/package.bash'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/my_tf_rtabmap_launch/package.zsh'
+[0.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/share/colcon-core/packages/my_tf_rtabmap_launch)
+[0.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.468s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.471s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.476s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/local_setup.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/_local_setup_util_ps1.py'
+[0.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/setup.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/local_setup.sh'
+[0.477s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/_local_setup_util_sh.py'
+[0.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/setup.sh'
+[0.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/local_setup.bash'
+[0.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/setup.bash'
+[0.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/local_setup.zsh'
+[0.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rechner1/sophies_wohnzimmer/startup/my_tf_rtabmap_launch/install/setup.zsh'

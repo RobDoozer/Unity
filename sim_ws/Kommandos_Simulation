@@ -1,0 +1,25 @@
+ros2 run kamerabild lidar1	(sim_ws)
+ros2 launch kinect multi_kinect.launch.py	(sim_ws)
+ros2 run can_interface can_bridge_node (sim_ws)
+ros2 run map_sector_monitor map_sector_monitor_rechteck_rviz (sim_ws)
+ros2 launch my_tf_rtabmap_launch start_with_tf.launch.py 	(sim_ws)
+
+
+
+
+
+
+
+
+
+
+
+ALT:
+
+(Zum Beobachten der 16-Boolean-Werte (anzeigen der Topics):ros2 run can_interface uebersicht_booleans)
+(ros2 run kamerabild MultiBoolTestNode)
+(alt: ros2 run odom odom1)
+
+
+stdbuf -o L ros2 launch rtabmap_launch rtabmap.launch.py stereo:=false icp_odometry:=true visual_odometry:=false subscribe_scan:=true scan_topic:=/scan rgb_topic:=/kinect2/qhd/image_color_rect depth_topic:=/kinect2/qhd/image_depth_rect camera_info_topic:=/kinect2/qhd/camera_info camera_frame_id:=kinect2_color_optical_frame compressed:=false rgbd_sync:=true depth_registration:=false database_path:=~/.ros/rtabmap.db publish_tf_map:=true frame_id:=base_link odom_frame_id:=odom rviz:=true Grid/FromDepth:=true Grid/RayTracing:=true Grid/MaxGroundHeight:=0.1 Grid/DepthDecimation:=1 Grid/RangeMin:=0.3 Grid/RangeMax:=6.0 Grid/NormalK:=0 Grid/GlobalGrid:=true Rtabmap/DetectionRate:=15.0 RGBD/LinearUpdate:=0.03 RGBD/AngularUpdate:=0.005 RGBD/OptimizeMaxError:=2.0 Mem/NotLinkedNodesKept:=false approx_sync_max_interval:=0.3
+

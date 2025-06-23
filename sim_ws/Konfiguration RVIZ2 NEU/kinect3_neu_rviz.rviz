@@ -1,0 +1,77 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Name: Tool Properties
+  - Class: rviz_common/Views
+    Name: Views
+  - Class: rviz_common/Time
+    Name: Time
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Reference Frame: kinect3_link
+      Plane: XY
+      Cell Size: 1
+      Plane Cell Count: 10
+      Color: 160; 160; 164
+    - Class: rviz_default_plugins/Image
+      Name: Kinect3 Depth
+      Enabled: true
+      Topic:
+        Value: /kinect3/depth
+      Normalize Range: true
+      Min Value: 0
+      Max Value: 1
+    - Class: rviz_default_plugins/Image
+      Name: Kinect3 RGB
+      Enabled: true
+      Topic:
+        Value: /kinect3/rgb
+      Normalize Range: true
+      Min Value: 0
+      Max Value: 1
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Kinect3 PointCloud
+      Enabled: true
+      Topic:
+        Value: /kinect3/points
+      Color Transformer: RGB8
+      Size (Pixels): 3
+      Style: Flat Squares
+      Use Fixed Frame: true
+      Reference Frame: kinect3_link
+  Enabled: true
+  Global Options:
+    Fixed Frame: kinect3_link
+    Background Color: 48; 48; 48
+    Frame Rate: 30
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Value: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic:
+        Value: /goal_pose
+    - Class: rviz_default_plugins/PublishPoint
+      Topic:
+        Value: /clicked_point
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2.0
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Name: Current View
+      Target Frame: kinect3_link
