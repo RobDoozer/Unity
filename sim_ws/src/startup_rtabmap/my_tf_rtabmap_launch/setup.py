@@ -10,6 +10,7 @@ setup(
         ('share/' + package_name + '/launch', ['launch/start_with_tf.launch.py']),
         ('share/' + package_name + '/launch', ['launch/start_with_tf2.launch.py']),
         ('share/' + package_name + '/launch', ['launch/two_maps.launch.py']),
+        ('share/' + package_name + '/launch', ['launch/two_maps.launchV2.py']),
         ('share/' + package_name + '/config', ['config/tf_transforms.yaml']),
         ('share/' + package_name + '/config', ['config/tf_transforms2.yaml']),
         ('share/' + package_name, ['package.xml']),
