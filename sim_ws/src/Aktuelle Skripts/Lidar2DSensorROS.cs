@@ -70,6 +70,7 @@ public class Lidar2DSensorROS : MonoBehaviour
     void Update()
     {
         //float deltaRotation = rotationSpeed * Time.deltaTime;
+        
         float deltaRotation = 5000 * 0.72f * Time.deltaTime;  // 5000 Hz * 0,72°
         // Debug.Log($"Frame Time: {Time.deltaTime:F4} s");
         accumulatedRotation += deltaRotation;
@@ -109,6 +110,7 @@ public class Lidar2DSensorROS : MonoBehaviour
             byte[] bytes = Encoding.ASCII.GetBytes(combinedData);
             udpClient.Send(bytes, bytes.Length);
             batchData.Clear();
+           // Debug.Log(combinedData);
         }
 
         Debug.DrawLine(origin, origin + worldDirection * range, Color.green, 0.05f);
