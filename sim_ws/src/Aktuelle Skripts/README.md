@@ -10,6 +10,6 @@ SteuerArrayTalker gibt die in Unity durch die Pfeiltasten eingegebenen Fahrbefeh
 
 freigegebeneFahrbefehlEmpfänger empfängt von ROS das Array nach der Entscheidungsbridge, das liefert, ob und wie gefahren werden darf (oder auch nicht)
 
-KllisionsManager erkennt Kontakt des Körpers, dem das Skript zugeordnet ist (muss Collider UND Rigidbody haben) und anderen Objekten mit Collideer (zwingend notwendig). Bei Kollision wird ein frei wählbares Objekt rot eingefärbt.
+KollisionsManager erkennt Kontakt des Körpers, dem das Skript zugeordnet ist (muss Collider UND Rigidbody haben) und anderen Objekten mit Collideer (zwingend notwendig). Bei Kollision wird ein frei wählbares Objekt rot eingefärbt.
 
 Rollstuhl und Rollstuhl sind alte Skripts
